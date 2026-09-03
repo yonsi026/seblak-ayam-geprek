@@ -18,7 +18,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-4 md:px-8 lg:px-12">
+      <div className="mx-auto flex max-w-[1280px] items-center justify-between gap-4 px-5 py-4 md:gap-8 md:px-8 lg:px-12">
         <a href="#top" className="min-w-0">
           <span className="block text-[13px] font-extrabold leading-[1.15] tracking-tight uppercase md:text-sm">
             Seblak Prasmanan
