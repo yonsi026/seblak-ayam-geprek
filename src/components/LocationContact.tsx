@@ -1,7 +1,7 @@
 import { Bike, Clock, MapPin, MessageCircle, ShoppingBag } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { store } from "@/data/menu";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { waLink } from "@/lib/cart";
 import { track } from "@/lib/analytics";
 

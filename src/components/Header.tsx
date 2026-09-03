@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, ShoppingCart, X } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { useCart } from "@/lib/cart";
 import { track } from "@/lib/analytics";
 

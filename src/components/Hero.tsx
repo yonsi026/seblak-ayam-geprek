@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { heroSeblak } from "@/lib/images";
 import { MicroConversion } from "@/components/MicroConversion";
 

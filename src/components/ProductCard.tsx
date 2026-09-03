@@ -2,7 +2,7 @@ import { Plus, Star } from "lucide-react";
 import { formatIDR, type Product } from "@/data/menu";
 import { images } from "@/lib/images";
 import { useCart } from "@/lib/cart";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 
 export function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();

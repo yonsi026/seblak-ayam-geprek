@@ -3,7 +3,7 @@ import { Minus, Plus, ShoppingCart } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SpicyLevelSelector } from "@/components/SpicyLevelSelector";
 import { ToppingSelector } from "@/components/ToppingSelector";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { bases, extras, formatIDR, spicyLevels, toppings } from "@/data/menu";
 import { useCart } from "@/lib/cart";
 import { track } from "@/lib/analytics";
