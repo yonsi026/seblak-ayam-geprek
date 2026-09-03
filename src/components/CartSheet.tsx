@@ -1,7 +1,7 @@
 import { Minus, Plus, Trash2, X } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { formatIDR, promo } from "@/data/menu";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { track } from "@/lib/analytics";
 
 export function CartSheet() {

@@ -14,10 +14,10 @@ export interface CartItem {
   name: string;
   price: number;
   quantity: number;
-  spicyLevel?: number;
-  toppings?: string[];
-  extras?: string[];
-  notes?: string;
+  spicyLevel?: number | undefined;
+  toppings?: string[] | undefined;
+  extras?: string[] | undefined;
+  notes?: string | undefined;
 }
 
 interface CartContextValue {

@@ -1,5 +1,5 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { waLink } from "@/lib/cart";
 import { track } from "@/lib/analytics";
 

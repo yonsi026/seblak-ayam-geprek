@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ayamGeprek } from "@/lib/images";
 import { formatIDR, geprekMenu } from "@/data/menu";
 import { useCart } from "@/lib/cart";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 
 export function AyamGeprekSection() {
   const { addItem } = useCart();

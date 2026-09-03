@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/action-button";
 import { heroSeblak } from "@/lib/images";
 import { MicroConversion } from "@/components/MicroConversion";
 
@@ -8,7 +8,7 @@ export function Hero() {
     <section id="top" className="mx-auto max-w-[1280px] px-5 pb-12 pt-8 md:px-8 md:pt-12 lg:px-12">
       <div className="grid gap-8 md:grid-cols-12 md:gap-8 lg:gap-12">
         <div className="md:col-span-7 lg:col-span-6">
-          <p className="label-mono text-primary">Seblak Prasmanan · {""}Ayam Geprek Sereh</p>
+          <p className="label-mono text-primary">Seblak Prasmanan · Ayam Geprek Sereh</p>
           <h1 className="display-tight mt-5 text-[clamp(2.25rem,9vw,6rem)]">
             Seblak Sesuai Selera,
             <br />
